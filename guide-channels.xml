@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- guide-channels.xml — channel list for the Bangla/world EPG guide.
+     tvg-ids match iptv-world-bangla / iptv-org data.
+     EPG coverage (iptv-org/epg, checked 2026-11-23): grabbers exist for
+     Al Jazeera (aljazeera.com) and NHK World-Japan (www3.nhk.or.jp).
+     No grabber exists yet for the other 8 channels — their <channel> entries
+     below are placeholders so the guide can grow when grabbers are added. -->
+<tv>
+  <channel id="AlJazeera.qa"><display-name>Al Jazeera English</display-name></channel>
+  <channel id="NHKWorldJapan.jp"><display-name>NHK World-Japan</display-name></channel>
+  <channel id="DW.de"><display-name>DW English</display-name></channel>
+  <channel id="EuronewsEnglish.fr"><display-name>Euronews English</display-name></channel>
+  <channel id="SkyNewsArabia.ae"><display-name>Sky News Arabia</display-name></channel>
+  <channel id="NDTV24x7.in"><display-name>NDTV 24x7</display-name></channel>
+  <channel id="AlArabiyaEnglish.sa"><display-name>Al Arabiya English</display-name></channel>
+  <channel id="TRTWorld.tr"><display-name>TRT World</display-name></channel>
+  <channel id="WION.in"><display-name>WION</display-name></channel>
+  <channel id="CNBCUK.uk"><display-name>CNBC UK</display-name></channel>
+</tv>
